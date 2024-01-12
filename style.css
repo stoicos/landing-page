@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(20, 23, 37);
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px;
+    gap: 28px;
+    background-color: rgb(20, 23, 37);
+    color: white;
+}
+
+.hero h1 {
+    width: 300px;
+}
+
+.hero p {
+    width: 300px;
+}
+
+button {
+    background-color: rgb(26, 66, 243);
+    border: none;
+    padding: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+
+.portfolio {
+    padding: 26px;
+    text-align: center;
+}
+
+
+
+.gatitos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0 30px 0;
+}
+
+.gatitos p {
+    width: 150px;
+}
+
+.gatitos img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.frase-container{
+    background-color: rgb(221, 221, 221);
+    padding: 26px;
+}
+
+.frase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.frase p {
+
+    text-align: right;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+em {
+    font-weight: lighter;
+    font-size: 25px;
+    display: block;
+    margin: 60px auto 0 auto;
+}
+
+.suscripcion {
+    padding: 60px;
+}
+
+.card {
+    background-color: rgb(64, 124, 253);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.footer {
+    padding: 26px;
+    background-color: rgb(20, 23, 37);
+    color: white;
+}
+
+.footer p {
+    text-align: center;
+}
